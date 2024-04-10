@@ -4925,12 +4925,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "@//mediapipe/examples/ios/iristrackinggpu:IrisTrackingGpuApp";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K867ZWH27P;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "2a38cca4-32a4-495c-b85a-0f22f4c67f3b.mediapipe.examples.IrisTrackingGpu";
 				PRODUCT_NAME = IrisTrackingGpuApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "@//mediapipe/examples/ios/iristrackinggpu";
 				TULSI_XCODE_VERSION = 15.3.0.15E204a;
@@ -7221,12 +7225,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "@//mediapipe/examples/ios/iristrackinggpu:IrisTrackingGpuApp";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K867ZWH27P;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "2a38cca4-32a4-495c-b85a-0f22f4c67f3b.mediapipe.examples.IrisTrackingGpu";
 				PRODUCT_NAME = IrisTrackingGpuApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "@//mediapipe/examples/ios/iristrackinggpu";
 				TULSI_XCODE_VERSION = 15.3.0.15E204a;
@@ -9589,7 +9597,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "@//mediapipe/examples/ios/iristrackinggpu:IrisTrackingGpuApp";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K867ZWH27P;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = "";
@@ -9601,6 +9612,7 @@
 				OTHER_SWIFT_FLAGS = "--version";
 				PRODUCT_BUNDLE_IDENTIFIER = "2a38cca4-32a4-495c-b85a-0f22f4c67f3b.mediapipe.examples.IrisTrackingGpu";
 				PRODUCT_NAME = IrisTrackingGpuApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
@@ -10015,7 +10027,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
 				BAZEL_TARGET = "@//mediapipe/examples/ios/iristrackinggpu:IrisTrackingGpuApp";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K867ZWH27P;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "";
@@ -10027,6 +10042,7 @@
 				OTHER_SWIFT_FLAGS = "--version";
 				PRODUCT_BUNDLE_IDENTIFIER = "2a38cca4-32a4-495c-b85a-0f22f4c67f3b.mediapipe.examples.IrisTrackingGpu";
 				PRODUCT_NAME = IrisTrackingGpuApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";

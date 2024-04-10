@@ -1,0 +1,29 @@
+
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+                <BuildableReference BlueprintName="PoseTrackingGpuApp" BuildableIdentifier="primary" ReferencedContainer="container:Mediapipe.xcodeproj" BlueprintIdentifier="B85F5873DB92337600000000" BuildableName="PoseTrackingGpuApp.app"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="__TulsiTestRunner_Debug" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit" shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BuildableName="PoseTrackingGpuApp.app" BlueprintName="PoseTrackingGpuApp" ReferencedContainer="container:Mediapipe.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="B85F5873DB92337600000000"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction buildConfiguration="Debug" launchStyle="0" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO" debugServiceExtension="internal" allowLocationSimulation="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" debugDocumentVersioning="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" customLLDBInitFile="$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit">
+        <EnvironmentVariables></EnvironmentVariables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BuildableIdentifier="primary" BuildableName="PoseTrackingGpuApp.app" BlueprintName="PoseTrackingGpuApp" BlueprintIdentifier="B85F5873DB92337600000000" ReferencedContainer="container:Mediapipe.xcodeproj"></BuildableReference>
+        </BuildableProductRunnable>
+    </LaunchAction>
+    <ProfileAction debugDocumentVersioning="YES" buildConfiguration="__TulsiTestRunner_Release" useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES">
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintIdentifier="B85F5873DB92337600000000" ReferencedContainer="container:Mediapipe.xcodeproj" BuildableIdentifier="primary" BlueprintName="PoseTrackingGpuApp" BuildableName="PoseTrackingGpuApp.app"></BuildableReference>
+        </BuildableProductRunnable>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>
